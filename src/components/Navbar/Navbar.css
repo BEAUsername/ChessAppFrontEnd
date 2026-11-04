@@ -1,0 +1,29 @@
+.navbar {
+    position: fixed;
+    inset: 0 auto 0 0;
+    width: 100px;
+    box-sizing: border-box;
+    padding: 180px 16px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    background: black;
+}
+
+.navbar-button {
+    padding: 20px 0;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    background: #161616;
+    color: white;
+}
+
+.navbar-button:hover {
+    color: #f5c542;
+}
+
+.navbar-button.active {
+    color: #f5c542;
+    background: #161616;
+}
