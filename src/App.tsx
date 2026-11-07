@@ -1,8 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar/Navbar';
-import Home from './pages/Home';
-import Play from './pages/Play';
-import Players from './pages/Players';
+import Home from './pages/Home/Home.tsx';
+import Play from './pages/Play/Play.tsx';
+import Players from './pages/Players/Players.tsx';
 
 function App() {
   return (
