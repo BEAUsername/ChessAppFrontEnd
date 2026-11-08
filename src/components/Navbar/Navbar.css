@@ -14,17 +14,37 @@
 }
 
 .navbar-button {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 12px 10px;
-    border-radius: 10px;
+    border-radius: 8px;
     background: #161616;
     color: white;
 }
 
 .navbar-button.active {
     background: rgba(30, 30, 30, 0.9);
+}
+
+.navbar-button::after {
+    pointer-events: none;
+    position: absolute;
+    left: 100%;
+    content: attr(aria-label);
+    padding: 6px 12px;
+    margin-left: 30px;
+    border-radius: 8px;
+    background: rgba(20, 20, 20, 0.85);
+    color: white;
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.4s;
+}
+
+.navbar-button:hover::after {
+    opacity: 1;
 }
 
 .navbar-button img {
