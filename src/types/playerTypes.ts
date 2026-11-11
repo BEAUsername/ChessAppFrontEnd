@@ -8,3 +8,9 @@ export interface playerTypes {
     gamesPlayed: number;
     winPercentage: number;
 }
+
+export interface playerPageTypes {
+    players: playerTypes[];
+    page: number;
+    totalPages: number;
+}
