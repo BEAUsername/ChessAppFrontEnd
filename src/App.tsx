@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar';
 import Home from './pages/Home/Home.tsx';
 import Play from './pages/Play/Play.tsx';
 import Players from './pages/Players/Players.tsx';
+import Join from './pages/Join/Join.tsx';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/play" element={<Play />} />
             <Route path="/players" element={<Players />} />
+            <Route path="/join" element={<Join />} />
           </Routes>
         </main>
       </>
