@@ -4,4 +4,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 40px 8% 40px 130px;
+}
+
+.home-join-box {
+    width: 340px;
+    padding: 28px;
+    border-radius: 12px;
+    background: rgba(22, 22, 22, 0.7);
+    backdrop-filter: blur(8px);
+}
+
+.home-join-box h2 {
+    margin: 0 0 20px 0;
+    color: white;
 }
