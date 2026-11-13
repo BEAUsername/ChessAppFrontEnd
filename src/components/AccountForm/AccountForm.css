@@ -1,0 +1,52 @@
+.account-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: white;
+}
+
+.account-form label {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    color: #9a9a9a;
+}
+
+.account-form input {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+    background: #2a2a2a;
+    color: white;
+    color-scheme: dark;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.account-form input:focus {
+    outline: none;
+    border-color: #6a6a6a;
+}
+
+.account-form button {
+    padding: 10px 14px;
+    border-radius: 6px;
+    border: 1px solid #3a3a3a;
+    background: #2a2a2a;
+    color: white;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.account-form button:hover {
+    background: #3a3a3a;
+}
+
+.account-form p {
+    margin: 0;
+}
+
+.account-form a {
+    color: white;
+}
